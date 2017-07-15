@@ -59,7 +59,7 @@ function AddDomain() {
         res.on('data', function (data) {
 
             //序列化之后,就可以拿到你想要的数据了
-            oData = JSON.parse(data);
+            let oData = JSON.parse(data);
 
         });
     })
